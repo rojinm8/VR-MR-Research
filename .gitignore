@@ -107,3 +107,62 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Android signing credentials
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+key.properties
+
+# Private credentials
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+local.properties
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Unity-generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+
+# Android build files
+*.apk
+*.aab
+
+# Private research data
+MR_Research_Data/
+SocioCast_Research_Sessions/
+Recordings/
+*.wav
+*.mp3
+*.m4a
+*.log
+tracking.csv
+received_events.txt
+headset_interaction_log.txt
+
+# Local package configuration
+manifest-Elin.json
+.npmrc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
